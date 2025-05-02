@@ -1,0 +1,7 @@
+{
+    "javascript.format.semicolons": "remove",
+    "javascript.format.enable": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
