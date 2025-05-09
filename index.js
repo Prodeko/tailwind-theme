@@ -18,6 +18,14 @@ module.exports = plugin.withOptions(
             extend: {
                 fontFamily: {
                     raleway: ["Raleway", ...defaultTheme.fontFamily.sans],
+                },
+                colors: {
+                    prodeko: {
+                        light: '#0053a0',
+                        medium: '#002e7d',
+                        DEFAULT: '#002e7d',
+                        dark: '#002851',
+                    }
                 }
             }
         }
